@@ -1,7 +1,3 @@
-// if (process.env.NODE_ENV !== "production") {
-//     require('dotenv').config();
-// }
-// const mapToken = process.env.MAPBOX_TOKEN;
 
 mapboxgl.accessToken = mapToken;
 const allCampgrounds = { features: JSON.parse(campgrounds) }
