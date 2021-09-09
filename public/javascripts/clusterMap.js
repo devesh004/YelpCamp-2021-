@@ -1,4 +1,4 @@
-mapboxgl.accessToken = mapToken;
+mapboxgl.accessToken = process.env.MAPBOX_TOKEN;
 const allCampgrounds = { features: JSON.parse(campgrounds) }
 const map = new mapboxgl.Map({
     container: 'cluster-map',
