@@ -1,4 +1,6 @@
 
+
+
 mapboxgl.accessToken = mapToken;
 const allCampgrounds = { features: JSON.parse(campgrounds) }
 const map = new mapboxgl.Map({
